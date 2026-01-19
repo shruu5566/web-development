@@ -1,0 +1,28 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+.profile-card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+}
+.name {
+  color: #333;
+}
+
+.role {
+  color: #777;
+  font-size: 14px;
+}
+
+.bio {
+  color: #555;
+  font-size: 14px;
+}
+.profile-card {
+  border-radius: 10px;
+  text-align: center;
+}
