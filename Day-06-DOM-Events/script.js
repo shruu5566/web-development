@@ -21,6 +21,7 @@ image.addEventListener("mouseleave", function () {
 const box = document.getElementById("box");
 let position = 0;
 
+
 setInterval(function () {
   position += 2;
   box.style.left = position + "px";
