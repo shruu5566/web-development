@@ -20,7 +20,7 @@ btn.addEventListener("click", async () => {
     );
 
     const data = await response.json();
-    console.log(data); // 👈 keep for testing
+    console.log(data); 
 
     if (data.cod !== 200) {
       result.innerHTML = "❌ City not found";
