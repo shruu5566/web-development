@@ -9,6 +9,7 @@ function checkEvenOdd() {
     return;
   }
 
+  
   if (num % 2 === 0) {
     showOutput(num + " is Even");
   } else {
