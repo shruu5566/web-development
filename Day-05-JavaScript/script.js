@@ -1,6 +1,6 @@
-// ===============================
+
 // Even or Odd (User Input)
-// ===============================
+//
 function checkEvenOdd() {
   let num = document.getElementById("numberInput").value;
 
@@ -17,9 +17,6 @@ function checkEvenOdd() {
 }
 
 
-// ===============================
-// Square of Number
-// ===============================
 function findSquare() {
   let num = document.getElementById("squareInput").value;
 
@@ -33,9 +30,9 @@ function findSquare() {
 }
 
 
-// ===============================
+
 // Array Sum
-// ===============================
+
 function findArraySum() {
   let input = document.getElementById("arrayInput").value;
 
@@ -55,9 +52,9 @@ function findArraySum() {
 }
 
 
-// ===============================
+
 // Common Output Function
-// ===============================
+
 function showOutput(message) {
   document.getElementById("output").innerText = message;
 }
